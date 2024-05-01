@@ -51,109 +51,315 @@
 
 ---
 
--   <h5>Added:</h5>
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
 
-    -   PNJSBlog\ |0| **_=[M3\MAINDIR]_**
-
-    -   controllers\ |0| **_=[MAINDIR\controllers]_**
-
-    -   dirtyJS\ |0| **_=[MAINDIR\dirtyJS]_**
-
-    -   <p>node_modules\&+ |0| <strong><em>=[MAINDIR\node_modules\&+]</em></strong></p>
-
-    -   public\ |0| **_=[MAINDIR\public]_**
-
-        -   css\ |0| **_=[public\css]_**
-
-        -   img\ |0| **_=[public\img]_**
-
-        -   js\ |0| **_=[public\js]_**
-
-    -   server\ |0| **_=[MAINDIR\server]_**
-
-        -   config\ |0| **_=[server\config]_**
-
-            -   db.js |0| **_=[config\]_**
-
-        -   models\ |0| **_=[server\models]_**
-
-            -   Post.js |0| **_=[models\]_**
-
-        -   routes\ |0| **_=[server\routes]_**
-
-            -   dummydate.js |0| **_=[routes\]_**
-
-            -   main.js |0| **_=[routes\]_**
-
-    -   views\ |0| **_=[MAINDIR\views]_**
-
-        -   layouts\ |0| **_=[views\layouts]_**
-
-            -   main.ejs |0| **_=[layouts\]_**
-
-        -   partials\ |0| **_=[views\partials]_**
-
-            -   header.ejs |0| **_=[partials\]_**
-
-        -   index.ejs |0| **_=[views\]_**
-
-    -   .env |0| **_=[MAINDIR\]_**
-
-    -   .gitignore |0| **_=[MAINDIR\]_**
-
-    -   app.js |0| **_[MAINDIR\]_**
-
-    -   package-lock.json |0| **_[MAINDIR\]_**
-
-    -   package.json |0| **_[MAINDIR\]_**
-
-    -   README.md<span align="center"> |0| <span align="right">=[MAINDIR\]</span>
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>PNJSBlog\</td>
+        <td>|0|</td>
+        <td>= [M3\MAINDIR]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>controllers\</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\controllers]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>dirtyJS\</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\dirtyJS]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>node_modules\&+</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\node_modules\&+]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>public\</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\public]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>css\</td>
+        <td>|0|</td>
+        <td>= [public\css]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>img\</td>
+        <td>|0|</td>
+        <td>= [public\img]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>js\</td>
+        <td>|0|</td>
+        <td>= [public\js]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>server\</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\server]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>config\</td>
+        <td>|0|</td>
+        <td>= [server\config]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>db.js</td>
+        <td>|0|</td>
+        <td>= [config\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>models\</td>
+        <td>|0|</td>
+        <td>= [server\models]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Post.js</td>
+        <td>|0|</td>
+        <td>= [models\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>routes\</td>
+        <td>|0|</td>
+        <td>= [server\routes]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>dummydate.js</td>
+        <td>|0|</td>
+        <td>= [routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.js</td>
+        <td>|0|</td>
+        <td>= [routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>views\</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\views]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>layouts\</td>
+        <td>|0|</td>
+        <td>= [views\layouts]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.ejs</td>
+        <td>|0|</td>
+        <td>= [layouts\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>partials\</td>
+        <td>|0|</td>
+        <td>= [views\partials]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>header.ejs</td>
+        <td>|0|</td>
+        <td>= [partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.ejs</td>
+        <td>|0|</td>
+        <td>= [views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.env</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.gitignore</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>app.js</td>
+        <td>|0|</td>
+        <td>[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>package-lock.json</td>
+        <td>|0|</td>
+        <td>[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>package.json</td>
+        <td>|0|</td>
+        <td>[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
 
 ---
 
--   <h5>Updated:</h5>
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
 
-    -   db.js |0|=>|0.0| **_=[config\]_**
-
-    -   Post.js |0|=>|0.0| **_=[models\]_**
-
-    -   dummydate.js |0|=>|0.0| **_=[routes\]_**
-
-    -   main.js |0|=>|0.0| **_=[routes\]_**
-
-    -   main.ejs |0|=>|0.0| **_=[layouts\]_**
-
-    -   header.ejs |0|=>|0.0| **_=[partials\]_**
-
-    -   index.ejs |0|=>|0.0| **_=[views\]_**
-
-    -   .env |0|=>|0.0| **_=[MAINDIR\]_**
-
-    -   .gitignore |0|=>|0.0| **_=[MAINDIR\]_**
-
-    -   app.js |0|=>|0.0| **_=[MAINDIR\]_**
-
-    -   package.json |0|=>|0.0| **_=[MAINDIR\]_**
-
-    -   README.md |0|=>|0.0| **_=[MAINDIR\]_**
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>db.js</td>
+        <td>|0| => |0.0|</td>
+        <td>= [config\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Post.js</td>
+        <td>|0| => |0.0|</td>
+        <td>= [models\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>dummydate.js</td>
+        <td>|0| => |0.0|</td>
+        <td>= [routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.js</td>
+        <td>|0| => |0.0|</td>
+        <td>= [routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.ejs</td>
+        <td>|0| => |0.0|</td>
+        <td>= [layouts\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>header.ejs</td>
+        <td>|0| => |0.0|</td>
+        <td>= [partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.ejs</td>
+        <td>|0| => |0.0|</td>
+        <td>= [views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.env</td>
+        <td>|0| => |0.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.gitignore</td>
+        <td>|0| => |0.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>app.js</td>
+        <td>|0| => |0.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>package.json</td>
+        <td>|0| => |0.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0| => |0.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
 
 ---
 
--   <h5>Moved:</h5>
+<h5 align="center"><strong><em><u>MOVED</u></em></strong></h5>
 
-    -   dummydate.js |0.0| **_=[routes\]=>[dirtyJS\]_**
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>dummydate.js</td>
+        <td>|0.0|</td>
+        <td>= [routes\] => [dirtyJS\]</td>
+        <td></td>
+    </tr>
+</table>
 
 ---
 
--   <h5>Copied:</h5>
+<h5 align="center"><strong><em><u>COPIED</u></em></strong></h5>
 
--   db.js |0.0| **_=[config\]=>[dirtyJS\]_**
-
--   app.js |0.0| **_=[MAINDIR\]=>[dirtyJS\]_**
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>db.js</td>
+        <td>|0.0|</td>
+        <td>= [config\] => [dirtyJS\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>app.js</td>
+        <td>|0.0|</td>
+        <td>= [MAINDIR\] => [dirtyJS\]</td>
+        <td></td>
+    </tr>
+</table>
 
 ---
-
-<h3 align="center">BRANCH 0</h3>
 
 <h4 align="center">VERSION 0.1</h4>
 
@@ -163,10 +369,76 @@
 
 ---
 
--   <h5>Updated:</h5>
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
 
-    -   README.md |0.0|=>|0.1| **_=[MAINDIR\]_**
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.0| => |0.1|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
 
 ---
 
+<h4 align="center">VERSION 0.2</h4>
+
 ---
+
+-   Modified README.md format to attain intended format
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.1| => |0.2|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
+---
+
+---
+
+<!--
+<h3 align="center">BRANCH #</h3>
+
+<h4 align="center">VERSION #.#</h4>
+
+---
+
+-   ###############################
+
+---
+<h5 align="center"><strong><em><u>#############</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+-->
