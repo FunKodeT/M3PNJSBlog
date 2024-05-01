@@ -412,6 +412,7 @@
         <td></td>
     </tr>
 </table>
+
 ---
 
 <h4 align="center">VERSION 0.3</h4>
@@ -434,6 +435,33 @@
     <tr>
         <td>README.md</td>
         <td>|0.2| => |0.3|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h4 align="center">VERSION 0.4</h4>
+
+---
+
+-   Formatting adjusted
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.3| => |0.4|</td>
         <td>= [MAINDIR\]</td>
         <td></td>
     </tr>
