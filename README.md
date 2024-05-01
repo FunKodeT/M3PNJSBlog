@@ -207,19 +207,19 @@
     <tr>
         <td>app.js</td>
         <td>|0|</td>
-        <td>[MAINDIR\]</td>
+        <td>= [MAINDIR\]</td>
         <td></td>
     </tr>
     <tr>
         <td>package-lock.json</td>
         <td>|0|</td>
-        <td>[MAINDIR\]</td>
+        <td>= [MAINDIR\]</td>
         <td></td>
     </tr>
     <tr>
         <td>package.json</td>
         <td>|0|</td>
-        <td>[MAINDIR\]</td>
+        <td>= [MAINDIR\]</td>
         <td></td>
     </tr>
     <tr>
@@ -414,6 +414,31 @@
 </table>
 ---
 
+<h4 align="center">VERSION 0.3</h4>
+
+---
+
+-   Format intention attained, minor format error corrected
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.2| => |0.3|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
+
 ---
 
 <!--
@@ -441,4 +466,5 @@
         <td></td>
         <td></td>
     </tr>
+</table>
 -->
