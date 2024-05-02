@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Post = require('../models/Post');
+
 // HOME PAGE
 router.get('/', async (req, res) => {
 	const locals = {
@@ -15,4 +16,5 @@ router.get('/', async (req, res) => {
 		console.log(error);
 	}
 });
+
 module.exports = router;

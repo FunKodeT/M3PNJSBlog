@@ -473,7 +473,7 @@
 
 ---
 
--   Header label error
+-   Header label error fixed
 
 ---
 
@@ -493,6 +493,191 @@
         <td></td>
     </tr>
 </table>
+
+---
+
+<h3 align="center">BRANCH 1</h3>
+
+<h4 align="center">VERSION 1.0</h4>
+
+---
+
+-   Initiated new branch for new step in project
+-   Commited changes from 20240502, project incomplete
+-   Pushed LOCAL to ORIGIN for synchronosity
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>style.css</td>
+        <td>|0|</td>
+        <td>= [public\css\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>script.js</td>
+        <td>|0|</td>
+        <td>= [public\js\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>footer.ejs</td>
+        <td>|0|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search.ejs</td>
+        <td>|0|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>about.ejs</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>post.ejs</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search.ejs</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\partials\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>style.css</td>
+        <td>|0| => |1.0|</td>
+        <td>= [public\css\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.js</td>
+        <td>|0.0| => |1.0|</td>
+        <td>= [server\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.ejs</td>
+        <td>|0.0| => |1.0|</td>
+        <td>= [views\layouts\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.5| => |1.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>dirtyJS\</td>
+        <td>|0| => |1.0|</td>
+        <td>= [MAINDIR\dirtyJS] => [MAINDIR\naughtyFiles]</td>
+        <td>- Renamed as all files will not be explicitly JS</td>
+    </tr>
+    <tr>
+        <td>.gitignore</td>
+        <td>|0.0| => |1.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td>- Changed '/dirtyJS' to '/naughtyFiles'</td>
+    </tr>
+    <tr>
+        <td>footer.ejs</td>
+        <td>|0| = |1.0|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>header.ejs</td>
+        <td>|0| => [1.0]</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search.ejs</td>
+        <td>|0| => |1.0|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>about.ejs</td>
+        <td>|0| => |1.0|</td>
+        <td>= [MAINDIR\views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.ejs</td>
+        <td>|0| => |1.0|</td>
+        <td>= [MAINDIR\views]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>COPIED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>views\</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\views] => [naughtyFiles\views]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>layouts\&+</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\views\layouts\&+] => [naughtyFiles\views\layouts\&+]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>partials\&+</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\views\partials\&+] => [naughtyFiles\views\partials\&+]</td>
+        <td>- MC: -(footer.ejs)</td>
+    </tr>
+    <tr>
+        <td>index.ejs</td>
+        <td>|1.0|</td>
+        <td>= [MAINDIR\views\] => [naughtyFiles\views]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
 
 ---
 
