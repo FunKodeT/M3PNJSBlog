@@ -653,19 +653,19 @@
     </tr>
     <tr>
         <td>views\</td>
-        <td>|0|</td>
+        <td>|N/A|</td>
         <td>= [MAINDIR\views] => [naughtyFiles\views]</td>
         <td></td>
     </tr>
     <tr>
         <td>layouts\&+</td>
-        <td>|0|</td>
+        <td>|N/A|</td>
         <td>= [MAINDIR\views\layouts\&+] => [naughtyFiles\views\layouts\&+]</td>
         <td></td>
     </tr>
     <tr>
         <td>partials\&+</td>
-        <td>|0|</td>
+        <td>|N/A|</td>
         <td>= [MAINDIR\views\partials\&+] => [naughtyFiles\views\partials\&+]</td>
         <td>- MC: -(footer.ejs)</td>
     </tr>
@@ -673,6 +673,158 @@
         <td>index.ejs</td>
         <td>|1.0|</td>
         <td>= [MAINDIR\views\] => [naughtyFiles\views]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h4 align="center">VERSION 1.1</h4>
+
+---
+
+-   about.ejs route established and fully functioning
+-   Commit to save progress made on 20240506, server troubleshooting required
+-   Pushed LOCAL to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>bs.js</td>
+        <td>|0|</td>
+        <td>= [MAINDIR\]</td>
+        <td>- MC: Created for troubleshooting server error</td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>main.js</td>
+        <td>|1.0| => |1.1|</td>
+        <td>= [server\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|1.0| => |1.1|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.ejs</td>
+        <td>|1.0| => |1.1|</td>
+        <td>= [MAINDIR\views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>post.ejs</td>
+        <td>|0| => |1.1|</td>
+        <td>= [MAINDIR\views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search.ejs</td>
+        <td>|0| => |1.1|</td>
+        <td>= [MAINDIR\views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search.ejs</td>
+        <td>|1.0| => |1.1|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>script.js</td>
+        <td>|0| = |1.1|</td>
+        <td>= [public\js\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>bs.js</td>
+        <td>|0| => |1.1|</td>
+        <td>= [MAINDIR\]</td>
+        <td>- MC: Troubleshooting still required</td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>RENAMED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>search(v0.0).ejs</td>
+        <td>|0.0|</td>
+        <td>= [naughtyFiles\views\partials\search.ejs] => [naughtyFiles\views\partials\search(v0.0).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index(v1.0).ejs</td>
+        <td>|1.0|</td>
+        <td>= [naughtyFiles\views\index.ejs] => [naughtyFiles\views\index(v0.0).ejs]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>COPIED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>server\routes\&+</td>
+        <td>|N/A|</td>
+        <td>= [server\routes\] => [naughtyFiles\server\routes\&+]</td>
+        <td>routes=>main(v1.1).js</td>
+    </tr>
+    <tr>
+        <td>search(v1.1).ejs</td>
+        <td>|1.1|</td>
+        <td>= [views\partials\] => [naughtyFiles\views\partials\search(v1.1).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index(v1.1).ejs</td>
+        <td>|1.1|</td>
+        <td>= [MAINDIR\views\index.ejs] => [naughtyFiles\views\index(v1.1).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search(v1.1).ejs</td>
+        <td>|1.1|</td>
+        <td>= [MAINDIR\views\search.ejs] => [naughtyFiles\views\search(v1.1).ejs]</td>
         <td></td>
     </tr>
 </table>
