@@ -1036,6 +1036,108 @@
 
 ---
 
+<h3 align="center">BRANCH 2</h3>
+
+<h4 align="center">VERSION 2.0</h4>
+
+---
+
+-   Established branch (2)
+-   Commited changes made on 20240508 for further development
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>helpers\&+</td>
+        <td>|N/A|</td>
+        <td>= [server\helpers\&+]</td>
+        <td>- MC: <br> routeHelpers.js |0|</td>
+    </tr>
+    <tr>
+        <td>User.js</td>
+        <td>|0|</td>
+        <td>= [server\models\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>admin.js</td>
+        <td>|0|</td>
+        <td>= [server\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>admin\&+</td>
+        <td>|N/A|</td>
+        <td>= [views\admin\&+]</td>
+        <td>- MC: <br> add-post.ejs |0| <br> dashboard.ejs |0| <br> edit-post.ejs |0| <br> index.ejs |0|</td>
+    </tr>
+    <tr>
+        <td>admin.ejs</td>
+        <td>|0|</td>
+        <td>= [views\layouts\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>header_admin.ejs</td>
+        <td>|0|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.6| - |2.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>app.js</td>
+        <td>|0.0| => |2.0|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    <tr>
+        <td>routeHelpers.js</td>
+        <td>|0| => |2.0|</td>
+        <td>= [server\helpers\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>User.js</td>
+        <td>|0| => |2.0|</td>
+        <td>= [server\models\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>admin.js</td>
+        <td>|0| => |2.0|</td>
+        <td>= [server\routes\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
 ---
 
 <!--
