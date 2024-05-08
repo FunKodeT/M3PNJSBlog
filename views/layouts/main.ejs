@@ -8,11 +8,11 @@
 		<title><%=locals.title%></title>
 	</head>
 	<body>
-		<%-include("../partials/search.ejs")%>
-		<div class="contain">
-			<%-include("../partials/header.ejs")%>
-			<main class="main"><%-body%></main>
-			<%-include("../partials/footer.ejs") %>
+		<%- include("../partials/search.ejs") %>
+		<div class="container">
+			<%- include("../partials/header.ejs") %>
+			<main class="main"><%- body %></main>
+			<%- include("../partials/footer.ejs") %>
 		</div>
 		<script type="text/javascript" defer src="/js/script.js"></script>
 	</body>

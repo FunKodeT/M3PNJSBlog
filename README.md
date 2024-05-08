@@ -831,9 +831,187 @@
 
 ---
 
+<h4 align="center">VERSION 1.2</h4>
+
+---
+
+-   Completely reset Step 2, began from scratch.
+-   After following course by the numbers, ran into same server error
+-   Ashton and I troubleshooted, could not find issue originally
+-   Issue was caused by lack of communication on placement of router.get code at end of assignment. Structure of assignment provided previously insinuated that router.get code @ end would be a separate block, however it was intended to be a full replacement of existing code. After adjustment, server functionality was restored
+-   Prepped v1.2 for merge into 0
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|1.1| => |1.2|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>style.css</td>
+        <td>|1.0| => |1.2|</td>
+        <td>= [public\css\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.ejs</td>
+        <td>|1.0| => |1.2|</td>
+        <td>= [views\layouts\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>footer.ejs</td>
+        <td>|1.0| => |1.2|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>header.ejs</td>
+        <td>|1.0| => |1.2|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search.ejs</td>
+        <td>|1.1| => |1.2|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.ejs</td>
+        <td>|1.1| => |1.2|</td>
+        <td>= [MAINDIR\views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>post.ejs</td>
+        <td>|1.1| => |1.2|</td>
+        <td>= [MAINDIR\views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>script.js</td>
+        <td>|1.1| => |1.2|</td>
+        <td>= [public\js\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search.ejs</td>
+        <td>|1.1| => |1.2|</td>
+        <td>= [MAINDIR\views\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.js</td>
+        <td>|1.1| => |1.2|</td>
+        <td>= [server\routes\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>COPIED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>script(v1.2).js</td>
+        <td>|1.2|</td>
+        <td>= [public\js\] => [naughtyFiles\public\js\script(v1.2)]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main(v1.2).ejs</td>
+        <td>|1.2|</td>
+        <td>= [views\layouts\] => [naughtyFiles\views\layouts\main(v1.2).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main(v1.2).js</td>
+        <td>|1.2|</td>
+        <td>= [server\routes\] => [naughtyFiles\server\routes\main(v1.2).js</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>footer(v1.2).ejs</td>
+        <td>|1.2|</td>
+        <td>= [views\partials\] => [naughtyFiles\views\partials\footer(v1.2).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>header(v1.2).ejs</td>
+        <td>|1.2|</td>
+        <td>= [views\partials\] => [naughtyFiles\views\partials\header(v1.2).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search(v1.2).ejs</td>
+        <td>|1.2|</td>
+        <td>= [views\partials\] => [naughtyFiles\views\partials\search(v1.2).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index(v1.2).ejs</td>
+        <td>|1.2|</td>
+        <td>= [MAINDIR\views\] => [naughtyFiles\views\index(v1.2).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>post(v1.2).ejs</td>
+        <td>|1.2|</td>
+        <td>= [MAINDIR\views\] => [naughtyFiles\views\post(v1.2).ejs]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>search(v1.2).ejs</td>
+        <td>|1.2|</td>
+        <td>= [MAINDIR\views\] => [naughtyFiles\views\search(v1.2).ejs]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>REMOVED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>bs.js</td>
+        <td>|1.1|</td>
+        <td>= [MAINDIR\]</td>
+        <td>- MC: File no longer required</td>
+    </tr>
+</table>
+
+---
+
 ---
 
 <!--
+
 <h3 align="center">BRANCH #</h3>
 
 <h4 align="center">VERSION #.#</h4>
@@ -843,6 +1021,7 @@
 -   ###############################
 
 ---
+
 <h5 align="center"><strong><em><u>#############</u></em></strong></h5>
 
 <table align="center">
@@ -859,4 +1038,7 @@
         <td></td>
     </tr>
 </table>
+
+---
+
 -->
