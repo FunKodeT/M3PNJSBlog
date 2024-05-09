@@ -35,6 +35,20 @@ router.get('/', async (req, res) => {
 	}
 });
 
+// ABOUT PAGE
+router.get('/about', async (req, res) => {
+	const locals = {
+		title: 'NodeJS Blog - About',
+		description:
+			'A Blog template application that will be used for your own use.',
+	};
+	try {
+		res.render('about', {locals});
+	} catch (error) {
+		console.log(error);
+	}
+});
+
 // GET POST BY ID
 router.get('/post/:id', async (req, res) => {
 	try {

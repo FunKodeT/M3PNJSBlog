@@ -8,27 +8,7 @@ const port = process.env.PORT || 4000;
 const methodOverride = require('method-override');
 const session = require('express-session');
 const connectDB = require('./server/config/db');
-/*
-const cookieParser = require('cookie-parser');
-const MongoStore = require('connect-mongo');
-const methodOverride = require('method-override');
-const session = require('express-session');
-*/
 connectDB();
-/*
-app.use(cookieParser());
-app.use(methodOverride('_method'));
-app.use(
-	session({
-		secret: 'keyboard cat',
-		resave: false,
-		saveUninitialized: true,
-		store: MongoStore.create({
-			mongoUrl: process.env.MONGO_URI,
-		}),
-	})
-);
-*/
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(cookieParser());
@@ -41,10 +21,6 @@ app.use(
 		store: MongoStore.create({
 			mongoUrl: process.env.MONGO_URI,
 		}),
-		/*
-        cookie: {maxAge: new Date(Date.now()+3600000}
-        Date.now() - 30 * 24 * 60 * 60 * 1000
-        */
 	})
 );
 app.use(expressLayouts);

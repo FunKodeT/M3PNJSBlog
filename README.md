@@ -1138,6 +1138,127 @@
 
 ---
 
+<h4 align="center">VERSION 2.1</h4>
+
+---
+
+-   Project step complete, functionality fully established and correctly rendered
+-   Finished changes commited
+-   Prepped for merge
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>index.ejs</td>
+        <td>|0| => |2.1|</td>
+        <td>= [views\admin\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>header_admin.ejs</td>
+        <td>|0| => |2.1|</td>
+        <td>= [views\partials\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>admin.ejs</td>
+        <td>|0| => |2.1|</td>
+        <td>= [views\layouts\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.env</td>
+        <td>|0.0| => |2.1|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>admin.js</td>
+        <td>|2.0| => |2.1|</td>
+        <td>= [server\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>dashboard.ejs</td>
+        <td>|0| => |2.1|</td>
+        <td>= [views\admin\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>add-post.ejs</td>
+        <td>|0| => |2.1|</td>
+        <td>= [views\admin\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>edit-post.ejs</td>
+        <td>|0| => |2.1|</td>
+        <td>= [views\admin\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|2.0| => |2.1|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>main.js</td>
+        <td>|1.2| => |2.1|</td>
+        <td>= [server\routes\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>COPIED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>app(v2.1).js</td>
+        <td>|2.1|</td>
+        <td>= [MAINDIR\app.js] => [naughtyFiles\app(v2.1).js]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>RENAMED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>app(v0.0).js</td>
+        <td>|0.0|</td>
+        <td>= [naughtyFiles\app.js] => [naughtyFiles\app(v0.0).js]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
 ---
 
 <!--
