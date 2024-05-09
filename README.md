@@ -521,6 +521,38 @@
         <td>= [MAINDIR\]</td>
         <td></td>
     </tr>
+</table>
+
+---
+
+<h4 align="center">VERSION 0.7</h4>
+
+---
+
+-   Merged changes on branch (2) into OPERATIONS BRANCH
+-   Prepped for push from LOCAL
+-   Pushed changes made on LOCAL to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|2.1| => |0.7|</td>
+        <td>= [MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
 
 ---
 
